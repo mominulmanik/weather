@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddCityActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_add_city" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/cl_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/_16sdp"
+        android:elevation="@dimen/_5sdp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/city_search_layout_bg"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/actv_search_box"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:completionThreshold="1"
+            android:drawableStart="@drawable/ic_magnifying_glass"
+            android:drawablePadding="@dimen/_5sdp"
+            android:ems="10"
+            android:hint="@string/search_for_a_city"
+            android:inputType="text"
+            android:textColorHint="#AFAFAF"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="normal"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:background="@null"
+            android:textColor="#FFF"
+            android:visibility="gone"
+            android:dropDownAnchor="@id/actv_search_box"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imgv_fab"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imgv_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:backgroundTint="@android:color/transparent"
+            android:padding="@dimen/_2sdp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_add"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

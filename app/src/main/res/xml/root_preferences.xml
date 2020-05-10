@@ -1,0 +1,52 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General">
+
+        <ListPreference
+
+            app:allowDividerAbove="true"
+            app:defaultValue="15"
+            app:entries="@array/time_entries"
+            app:entryValues="@array/time_values"
+            app:key="refresh_rate"
+            app:title="Refresh rate"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="\u2103"
+            app:allowDividerBelow="false"
+            app:entries="@array/tempUnit_entries"
+            app:entryValues="@array/tempUnit_values"
+            app:key="temp_unit"
+            app:title="Temperature unit"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notification Settings">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            app:key="notification"
+            app:title="Notification"
+            app:allowDividerAbove="true"
+            android:summary="Display weather notification"/>
+        <EditTextPreference
+            android:defaultValue="15"
+            android:key="min_temp"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            app:useSimpleSummaryProvider="true"
+            android:title="Low Temp Alert(\u2265 in \u2103)" />
+        <EditTextPreference
+            android:defaultValue="32"
+            android:key="max_temp"
+            android:selectAllOnFocus="true"
+            app:allowDividerBelow="true"
+            android:singleLine="true"
+            app:useSimpleSummaryProvider="true"
+            android:title="High Temp Alert(\u2264 in \u2103)" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

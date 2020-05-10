@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "385157751656",
+    "firebase_url": "https://group-assignment-35ecd.firebaseio.com",
+    "project_id": "group-assignment-35ecd",
+    "storage_bucket": "group-assignment-35ecd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385157751656:android:096cf00a85059846842cdd",
+        "android_client_info": {
+          "package_name": "com.bjit.android.training"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385157751656-r5d8etdb25ppvltdpgqcbthi0jjq7rkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bjit.android.training",
+            "certificate_hash": "33d2326f6bb10d91e8ba61cf6377547af54c568a"
+          }
+        },
+        {
+          "client_id": "385157751656-n0fe1i4jaci6hheb8l58mj1vgn766p98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bjit.android.training",
+            "certificate_hash": "f12eac7995309f3533c936cc81ffa9effb0e9c9f"
+          }
+        },
+        {
+          "client_id": "385157751656-vpd42dpam13sjtk5jqo86srldc4el1au.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bjit.android.training",
+            "certificate_hash": "0abec64969e01d82ecbc2af9fd1dfe7388831894"
+          }
+        },
+        {
+          "client_id": "385157751656-rnk4nja9h2cije19ot0pl8f81skqv7eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlSmCv2_O-IGCNrGKh59YOZ43E4v7A5zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385157751656-rnk4nja9h2cije19ot0pl8f81skqv7eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385157751656:android:324c0c4613f40f5b842cdd",
+        "android_client_info": {
+          "package_name": "com.bjit.android.weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385157751656-rnk4nja9h2cije19ot0pl8f81skqv7eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlSmCv2_O-IGCNrGKh59YOZ43E4v7A5zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385157751656-rnk4nja9h2cije19ot0pl8f81skqv7eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385157751656:android:a4cca1210fa4401a842cdd",
+        "android_client_info": {
+          "package_name": "com.tonu.all_projects"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385157751656-rnk4nja9h2cije19ot0pl8f81skqv7eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlSmCv2_O-IGCNrGKh59YOZ43E4v7A5zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385157751656-rnk4nja9h2cije19ot0pl8f81skqv7eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
